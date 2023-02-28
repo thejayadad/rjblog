@@ -11,8 +11,25 @@ const Sidebar = () => {
             />
             <p>We are a place to share thoughts and Ideas with like minded people</p>
         </div>
+        <div className='sidebar-item'>
+        <span className='sidebar-title'>Categories</span>
+        <ul className='sidebar-list'>
+        <li className='sidebar-list-item'>Sports</li>
+        <li className='sidebar-list-item'>Sports</li>
+        <li className='sidebar-list-item'>Sports</li>
+        <li className='sidebar-list-item'>Sports</li>
+        </ul>
+      </div>
+      <div className='sidebar-item'>
+      <span className='sidebar-title'>Follow Us</span>
+      <div className='sidebar-social'>
+      <i className="sidebarIcon fab fa-facebook-square"></i>
+          <i className="sidebarIcon fab fa-instagram-square"></i>
+          <i className="sidebarIcon fab fa-pinterest-square"></i>
+          <i className="sidebarIcon fab fa-twitter-square"></i>
+      </div>
 
-
+      </div>
         </div>
   )
 }
